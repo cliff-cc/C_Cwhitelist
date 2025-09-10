@@ -1,3 +1,19 @@
+! Title: My Custom Whitelist
+! Description: A personal collection of exception rules to prevent specific elements and requests from being blocked.
+! Version: 202509101908
+! Last updated: 10 September 2025, 7:08 PM HKT
+! Expires: 1 day
+! Homepage: https://github.com/YOUR_USERNAME/YOUR_REPOSITORY
+
+!==============================================================
+! Cosmetic Exceptions for Google
+! These rules prevent specific page elements from being hidden.
+!==============================================================
 google.*#@#div[data-lhcontainer="1"][id][data-hveid] > div[data-mcpr][data-mg-cp][data-mcp]
-@@||google.*/async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
 google.*#@#div[data-q][data-al]
+
+!==============================================================
+! Network Exceptions for Google
+! These rules allow specific web requests to proceed.
+!==============================================================
+@@||google.*/async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
