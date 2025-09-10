@@ -1,0 +1,3 @@
+google.*#@#div[data-lhcontainer="1"][id][data-hveid] > div[data-mcpr][data-mg-cp][data-mcp]
+@@||google.*/async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest
+google.*#@#div[data-q][data-al]
